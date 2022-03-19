@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo lynis audit --tests-from-group malware >> /tmp/lynis.partial_scan.log
+sudo lynis audit --tests-from-group authentication >> /tmp/lynis.partial_scan.log
+sudo lynis audit --tests-from-group networking >> /tmp/lynis.partial_scan.log
+sudo lynis audit --tests-from-group storage >> /tmp/lynis.partial_scan.log
+sudo lynis audit --tests-from-group filesystems >> /tmp/lynis.partial_scan.log

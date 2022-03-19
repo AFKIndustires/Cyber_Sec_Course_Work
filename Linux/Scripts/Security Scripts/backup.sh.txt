@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo tar cvf /home /var/backup/home.tar
+mv /var/backup/home.tar /var/backup/home.69696969.tar
+ls -lah /var/backup > /var/backup/file_report.txt
+free -h /var/backup/disk_report.txt

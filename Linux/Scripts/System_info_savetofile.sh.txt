@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#User defined variables
+RESEARCH=$(~/research)
+u=$USER
+d=$(date)
+ip=$(hostname -I | awk '{print $1}')
+host=$(hostname)
+exe=$(sudo find . -type f -perm /777)
+pro=$(ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -n 11)
+meminfo=$(grep -iE 'memtotal|memfree|memavailable' /proc/meminfo)
+
+if [ -d $RESEARCH ]
+then
+	echo 'this directory exists' 	
+	else
+		mkdir $RESEARCH
+		echo directory created $RESEARCH
+fi
+
+echo -e "\nSystem info as @:\n$d" >> ~/research/sys_info.txt
+echo -e "\nExecutable Files in the current directory "-$PWD-" are:\n$exe\n" >> ~/research/sys_info.txt
+echo -e "\nThe Current User is: \n$u" >> ~/research/sys_info.txt 
+echo -e "\nThe Current IP address is:\n$ip" >> ~/research/sys_info.txt
+echo -e "\nThe Current Hostname is:\n$host" >> ~/research/sys_info.txt
+echo -e "\nThe top 10 current processes as ranked by CPU usage are:\n$pro" >> ~/research/sys_info.txt
+echo -e "\nCurrent RAM info:\n$meminfo" >> ~/research/sys_info.txt

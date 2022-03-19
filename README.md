@@ -1,2 +1,3 @@
-# Cyber_Sec_Course_Work
-Just a small repo that showcases my learning adventure into the world of Cyber Security
+## Cyber Security Coursework by T Hartley
+
+### Just a small repo to display some of the many skills i have gained thus far into my cyber security journy.
