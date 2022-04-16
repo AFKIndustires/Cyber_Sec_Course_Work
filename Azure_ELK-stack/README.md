@@ -104,12 +104,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 
 ### Filebeat
-- Copy the 'Filebeat_config.yml' file to /etc/ansible/roles/files.
+- Copy the [Filebeat_config.yml](https://github.com/AFKIndustires/Cyber_Sec_Course_Work/blob/main/Azure_ELK-stack/Azure/Ansible/Filebeat_config.yml.txt) file to /etc/ansible/roles/files.
 - Update the 'Filebeat_config.yml' file to include the ELK_stack private ip address on lines 1106 and 1806.
 - Dont run the playbook just yet, Filebeat and Metricbeat playbook installs both programs at the same time, continue with steps below.
 
 ### Metricbeat
-- Copy the 'Metricbeat_config.yml' file to /etc/ansible/roles/files.
+- Copy the [Metricbeat_config.yml](https://github.com/AFKIndustires/Cyber_Sec_Course_Work/blob/main/Azure_ELK-stack/Azure/Ansible/Metricbeat_config.yml.txt) file to /etc/ansible/roles/files.
 - Update the 'Metricbeat_config.yml' file to include the ELK_stack private ip address on lines 62 and 96.
 - Run the playbook, and navigate to http://20.213.48.129:5601/ to check that the installation worked as expected.
 

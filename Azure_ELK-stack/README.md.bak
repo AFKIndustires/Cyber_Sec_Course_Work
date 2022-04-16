@@ -2,13 +2,13 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[Network Diagram]Azure\Diagrams\VNet_map_diagram.draw.io
+![Network Diagram](https://github.com/AFKIndustires/Cyber_Sec_Course_Work/blob/main/Azure_ELK-stack/Images/Network_Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. ELK stack and Filebeat&Metricbeat setup YAML files have been created setperatly for ease of use,
 
-[ELK stack setup YAML file]Azure\Ansible\ELK_stack_setup.yml
+[ELK stack setup YAML file](https://github.com/AFKIndustires/Cyber_Sec_Course_Work/blob/main/Azure_ELK-stack/Azure/Ansible/ELK_stack_setup.yml.txt)
 
-[Filebeat & Metribeat install YAML file]Azure\Ansible\Install_Filebeat-Metricbeat.yml
+[Filebeat & Metribeat install YAML file](https://github.com/AFKIndustires/Cyber_Sec_Course_Work/blob/main/Azure_ELK-stack/Azure/Ansible/Install_Filebeat-Metricbeat.yml.txt)
 
 
 
