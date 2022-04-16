@@ -5,8 +5,10 @@ The files in this repository were used to configure the network depicted below.
 [Network Diagram]Azure\Diagrams\VNet_map_diagram.draw.io
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. ELK stack and Filebeat&Metricbeat setup YAML files have been created setperatly for ease of use,
-[ELK stack setup YAML file]Azure\Ansible\ELK_stack_setup.yml
-[Filebeat & Metribeat install YAML file]Azure\Ansible\Install_Filebeat-Metricbeat.yml
+
+- [ELK stack setup YAML file]Azure\Ansible\ELK_stack_setup.yml
+
+- [Filebeat & Metribeat install YAML file]Azure\Ansible\Install_Filebeat-Metricbeat.yml
 
 
 
