@@ -82,8 +82,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![](Azure_ELK-stack/Images/Docker_ps-ELK_stack)
-< img src="Azure_ELK-stack/Images/Docker_ps-ELK_stack.jpg" >
+![Docker ps example](Cyber_Sec_Course_Work/Azure_ELK-stack/Images/Docker_ps-ELK_stack.jpg)
+
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - Web 1  - 10.0.0.5
